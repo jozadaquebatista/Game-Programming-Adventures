@@ -102,7 +102,7 @@ int main( int argc, char **argv )
 }
 
 
-// IMPLEMENTATION OF FUNCIONS
+// IMPLEMENTATION OF FUNCTIONS
 void render_map( CAMERA *camera, int offset)
 {
 	for(int y=0; y<( camera->y ); y++)
