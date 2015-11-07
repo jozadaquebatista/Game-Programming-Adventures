@@ -12,7 +12,7 @@
 typedef struct
 {
 	int x,
-		y;
+	    y;
 
 } CAMERA;
 
@@ -23,7 +23,7 @@ typedef struct
 *
 *  to compile: gcc -o map_test map_test.c -std=c11  
 *
-*  ~Game programming is fun
+*  ~Game programming is fun~
  */
 
 char map[ size_H ][ size_W ] = {
@@ -66,7 +66,7 @@ int main( int argc, char **argv )
 		}
 
 		render_map( camera, offset );
-		printf("posicao atual: %d\n", offset);
+		printf("Current Position: %d\n", offset);
 
 		while(1)
 		{
